@@ -225,18 +225,7 @@ See [`database/README.md`](database/README.md) for full schema docs and sample q
 
 ---
 
-## 🌱 Impact Stats (Platform Demo Data)
 
-```
-🍽️  52,847   Total meals donated
-🏨  150+     Partner hotels & restaurants  
-❤️  200+     Verified NGOs
-🚚  500+     Active volunteers
-📈  +23%     Donation growth (this month)
-♻️  2.3 tons Food waste reduced
-```
-
----
 
 ## 🛠️ Tech Stack
 

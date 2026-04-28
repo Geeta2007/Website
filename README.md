@@ -4,18 +4,6 @@
 
 # 🍛 NourishNet
 ### *Connecting Surplus Food to People Who Need It Most*
-
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Gemini AI](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
-
-**52,847 meals donated · 200+ verified NGOs · 500+ active volunteers**
-
-[Live Demo](#) · [Report Bug](../../issues) · [Request Feature](../../issues)
-
 </div>
 
 ---
@@ -224,19 +212,6 @@ The MySQL schema covers 15+ tables across 5 domains:
 See [`database/README.md`](database/README.md) for full schema docs and sample queries.
 
 ---
-
-
-
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | HTML5, CSS3, Vanilla JavaScript |
-| Icons | FontAwesome 6 |
-| Backend | Node.js (zero npm dependencies) |
-| AI | Google Gemini 1.5 Flash |
-| Database | MySQL 8 |
-| Hosting | Any static host (Vercel, Netlify, GitHub Pages) + Node server |
 
 ---
 

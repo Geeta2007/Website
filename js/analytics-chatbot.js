@@ -834,7 +834,7 @@ class AnalyticsChatbot {
         // PASTE YOUR GEMINI API KEY BELOW
         // Get a free key at: https://aistudio.google.com/app/apikey
         // ─────────────────────────────────────────────────────────────
-        const GEMINI_API_KEY = 'AIzaSyBgS5JVpVoH0t7rF-fxCI0BzEUZ2jDOQX8';
+        const GEMINI_API_KEY = 'AIzaSyAR0Jg52XTSdkyccFhqpgwo93xU_B86u3E';
 
         // Scrape visible page text as context (capped to avoid token limits)
         const pageContext = document.body.innerText

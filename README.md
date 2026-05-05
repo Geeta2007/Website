@@ -112,19 +112,6 @@ The MySQL schema covers 15+ tables across 5 domains:
 See [`database/README.md`](database/README.md) for full schema docs and sample queries.
 
 ---
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Open a Pull Request
-
----
-
 <div align="center">
 
 Made with ❤️ to end hunger, one meal at a time 🍛

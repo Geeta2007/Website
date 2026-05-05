@@ -75,106 +75,6 @@ NourishNet/
     └── README.md
 ```
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) v16+
-- [MySQL](https://www.mysql.com/) 8.0+
-- A modern browser
-- [Google Gemini API Key](https://makersuite.google.com/app/apikey) (free)
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/nourishnet.git
-cd nourishnet
-```
-
-### 2. Set Up the Backend
-
-```bash
-cd backend
-cp .env.example .env
-```
-
-Edit `.env` and add your Gemini API key:
-
-```env
-GEMINI_API_KEY=your_actual_api_key_here
-PORT=3000
-```
-
-Start the server:
-
-```bash
-node server.js
-```
-
-Server runs at `http://localhost:3000`
-
-### 3. Set Up the Database
-
-```bash
-mysql -u root -p
-```
-
-```sql
-CREATE DATABASE nourishnet;
-USE nourishnet;
-SOURCE database/schema.sql;
-SOURCE database/sample-data.sql;
-```
-
-### 4. Launch the Frontend
-
-Open `index.html` in your browser — no build step needed.
-
----
-
-## 🔌 API Reference
-
-Base URL: `http://localhost:3000`
-
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/ngos` | Fetch all registered NGOs |
-| `GET` | `/analytics-data` | Real-time platform statistics |
-| `POST` | `/match-ngo` | AI-powered NGO recommendation |
-| `POST` | `/chat` | Role-specific chatbot (Hotel / NGO / Volunteer / Donor) |
-| `POST` | `/analytics-chat` | Analytics insights chatbot |
-
-### Example: AI NGO Matching
-
-```bash
-curl -X POST http://localhost:3000/match-ngo \
-  -H "Content-Type: application/json" \
-  -d '{
-    "foodType": "Biryani & Curry",
-    "quantityKg": 20,
-    "expiryHours": 4,
-    "foodPreference": "Any"
-  }'
-```
-
-```json
-{
-  "recommendedNGO": {
-    "id": 1,
-    "name": "Hope Foundation",
-    "score": 95
-  },
-  "reasoning": "Best match due to high urgency, close proximity (2.3 km), and capacity for 120 people.",
-  "alternatives": [
-    { "id": 2, "name": "Care for Kids", "score": 88 }
-  ]
-}
-```
-
----
-
 ## 👥 User Roles
 
 | Role | What They Do |
@@ -222,12 +122,6 @@ See [`database/README.md`](database/README.md) for full schema docs and sample q
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature/your-feature`
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 

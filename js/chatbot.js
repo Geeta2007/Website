@@ -918,7 +918,7 @@ class NourishNetChatbot {
         // PASTE YOUR GEMINI API KEY BELOW
         // Get a free key at: https://aistudio.google.com/app/apikey
         // ─────────────────────────────────────────────────────────────
-        const GEMINI_API_KEY = 'AIzaSyDMuHErxi0PLNIHqo-s8krb7jjdSBjHlng';
+        const GEMINI_API_KEY = 'AIzaSyAR0Jg52XTSdkyccFhqpgwo93xU_B86u3E';
 
         // Scrape the current dashboard page as context
         const pageContext = document.body.innerText
